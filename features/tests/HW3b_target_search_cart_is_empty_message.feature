@@ -5,7 +5,7 @@ Feature: Search tests
   Scenario: User can see your cart is empty message
     Given Open target main page
     When Click on cart icon
-    Then Verify your cart is empty message shown
+    Then Verify cart is empty message shown
 
 
   Scenario: Logged out User can access Sing in
